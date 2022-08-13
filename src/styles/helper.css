@@ -1,0 +1,11 @@
+.container {
+  @apply max-w-screen-xl mx-auto px-6;
+}
+
+.row {
+  @apply flex flex-wrap -ml-5;
+}
+
+.col-lg-6 {
+  @apply w-full lg:w-6/12 p-5;
+}

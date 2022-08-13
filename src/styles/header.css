@@ -1,0 +1,46 @@
+header {
+  @apply bg-gradient-to-b from-orange-100 to-transparent;
+}
+
+.header__logo {
+  @apply absolute top-6 left-6 w-auto h-[40px];
+}
+.header__logo__img {
+  @apply w-full h-full object-cover;
+}
+
+.header__badge {
+  @apply text-xs font-medium  text-orange-800  bg-amber-100 inline-block rounded-3xl px-3 py-2;
+}
+
+.header__header {
+  @apply mt-5 text-4xl sm:text-5xl font-bold capitalize md:w-9/12 lg:w-full;
+}
+
+.header__delivery {
+  @apply bg-orange-500 text-white rotate-3 inline-block px-2 py-1;
+}
+
+.header__paragraph {
+  @apply mt-5 text-base text-gray-500;
+}
+
+.header__customers__ul {
+  @apply flex items-center mt-5;
+}
+
+.header__customers__ul__li {
+  @apply block w-[40px] h-[40px]  overflow-hidden rounded-full border-[3.5px] border-orange-50 -ml-3 first:-ml-0;
+}
+
+.header__customers__ul__li__img {
+  @apply w-full h-full object-cover rounded-full;
+}
+
+.header__customers__ul__msg {
+  @apply ml-3 text-xs sm:text-sm font-medium text-orange-800;
+}
+
+.header__image {
+  @apply w-full h-full object-cover;
+}
