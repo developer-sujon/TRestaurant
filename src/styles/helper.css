@@ -3,9 +3,23 @@
 }
 
 .row {
-  @apply flex flex-wrap -ml-5;
+  @apply flex flex-wrap -mx-4;
+}
+.col-lg-6 {
+  @apply w-full lg:w-6/12 p-4;
 }
 
-.col-lg-6 {
-  @apply w-full lg:w-6/12 p-5;
+.col-xl-4 {
+  @apply w-full sm:w-6/12 lg:w-4/12 xl:w-3/12  p-4;
+}
+
+.col-xl-5 {
+  @apply w-full sm:w-6/12 md:w-4/12 lg:w-3/12 xl:w-[20%] p-4;
+}
+.cover-img {
+  @apply w-full h-full object-cover;
+}
+
+.heading {
+  @apply text-lg uppercase text-orange-500 font-medium mb-5 underline decoration-orange-500 decoration-wavy decoration-2 underline-offset-[5px];
 }

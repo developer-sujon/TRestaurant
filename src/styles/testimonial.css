@@ -1,0 +1,45 @@
+.testimonials {
+  @apply py-20 bg-gradient-to-b from-orange-50/70 to-transparent;
+}
+.testimonials__block {
+  @apply w-full md:w-10/12 lg:w-7/12;
+}
+.testmonial__heading {
+  @apply text-3xl font-semibold text-gray-900 my-8;
+}
+.testimonials_left_col {
+  @apply w-full lg:w-8/12 p-3;
+}
+.testimonials_right_col {
+  @apply w-full lg:w-4/12 p-3;
+}
+.testimonials_comment_col {
+  @apply w-full sm:w-6/12 p-6;
+}
+.testimonials_user {
+  @apply flex items-center mb-4;
+}
+.testimonials_user_img {
+  @apply block w-[60px] h-[60px] rounded-full overflow-hidden;
+}
+.testimonials_user_name {
+  @apply block text-base font-medium capitalize text-slate-600 leading-[16px];
+}
+.testimonials_user_twitter {
+  @apply text-sm text-orange-700;
+}
+.testimonials_message {
+  @apply text-base text-gray-600 leading-[28px] relative;
+}
+.testimonials_icon {
+  @apply absolute top-3 left-3 text-6xl -z-10 text-orange-500 opacity-[.2];
+}
+.testimonials_gallery_col {
+  @apply w-4/12 sm:w-2/12 lg:w-4/12 p-3;
+}
+.testimonials_gallery {
+  @apply w-full h-auto overflow-hidden;
+}
+.testimonials_gallery_img {
+  @apply hover:scale-[1.3] transition-all duration-700 cursor-pointer;
+}

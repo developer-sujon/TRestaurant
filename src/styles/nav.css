@@ -1,5 +1,5 @@
 .nav {
-  @apply fixed top-0 -right-full w-full h-full bg-black/40 transition-all duration-200;
+  @apply fixed top-0 -right-full w-full h-full bg-black/40 transition-all duration-200 z-10;
 }
 
 .nav__container {
@@ -15,7 +15,7 @@
 }
 
 .nav__close {
-  @apply absolute top-4 right-4 text-lg text-orange-800  cursor-pointer;
+  @apply absolute top-1 right-4 text-lg text-orange-800  cursor-pointer;
 }
 
 .nav__open {

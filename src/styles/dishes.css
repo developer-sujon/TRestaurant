@@ -1,0 +1,35 @@
+.dishes {
+  @apply mt-[96px] bg-gradient-to-b from-orange-50/70 to-transparent -skew-y-2 py-20;
+}
+
+.dishes_image {
+  @apply w-full h-[190px] overflow-hidden rounded-tl-2xl rounded-tr-2xl relative;
+}
+
+.dishes_image__layer {
+  @apply absolute inset-0 w-full h-full bg-black/50;
+}
+
+.dishes__image__layer__lable {
+  @apply absolute top-4 right-4 block px-3 py-1 bg-orange-500 text-white rounded-3xl text-[13px] capitalize;
+}
+
+.dishes__title {
+  @apply text-sm sm:text-lg capitalize text-gray-900;
+}
+
+.dishes__avg__rating {
+  @apply inline-block text-orange-700  text-sm font-semibold;
+}
+
+.dishes__all__rating {
+  @apply inline-block text-sm text-gray-500 ml-1;
+}
+
+.dishes__price {
+  @apply text-base text-orange-800 font-medium;
+}
+
+.dishes__discount {
+  @apply line-through text-base text-gray-500;
+}
